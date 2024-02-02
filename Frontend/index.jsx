@@ -1,1 +1,0 @@
-//random charlie mack quote with vienna plugin
