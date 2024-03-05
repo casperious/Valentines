@@ -16,8 +16,8 @@ const App = () => {
     let [useUrl1] = "";
     let [useUrl2] = "";
     const [showYay, setShowYay] = useState(false)
-    const [urls1] = useState(["https://www.instagram.com/p/Cs0zxANri4Q/", "https://www.instagram.com/p/C1RgBW4LRTl/", "https://www.instagram.com/p/C06sKGHoHuv/?img_index=1", "https://www.instagram.com/p/C0Tw5oToWyl/", "https://www.instagram.com/p/Cs_On79LygD/"])
-    const [urls2] = useState(["https://www.instagram.com/p/CsJVBssIHc8/?img_index=1", "https://www.instagram.com/p/Cr-1C9Lrb0M/", "https://www.instagram.com/p/Cq-aWsrImIU/", "https://www.instagram.com/p/CbiECmcM3wf/", "https://www.instagram.com/p/CZ9YsPLLxDI/"])
+    const [urls1] = useState(["https://www.instagram.com/p/Cs0zxANri4Q/", "https://www.instagram.com/p/C1RgBW4LRTl/", "https://www.instagram.com/p/C06sKGHoHuv/?img_index=1", "https://www.instagram.com/p/C0Tw5oToWyl/", "https://www.instagram.com/p/Cs_On79LygD/", "https://www.instagram.com/p/C4D1xOXLRdd/?igsh=cXFmYzB6YnR2ejZ1"])
+    const [urls2] = useState(["https://www.instagram.com/p/CsJVBssIHc8/?img_index=1", "https://www.instagram.com/p/Cr-1C9Lrb0M/", "https://www.instagram.com/p/Cq-aWsrImIU/", "https://www.instagram.com/p/CbiECmcM3wf/", "https://www.instagram.com/p/CZ9YsPLLxDI/", "https://www.instagram.com/p/C3puzznoINc/"])
     const handleNoButtonHover = () => {
         const randomLeft = Math.random() * (window.innerWidth - 200);
         const randomTop = Math.random() * (window.innerHeight - 200);
